@@ -8,9 +8,7 @@ Meanwhile, in the current flow, edit the 'country' parameter in source to chose 
 
 I'll hold off on death rates for a bit. There's only so much morbidity I can take right now.
 
-Each commit gets more depressing...
-
-I realise I am going to have to include death rates.
+Each commit gets more depressing... I realise I am going to have to include death rates soon.
 
 ## How to use and edit code
 1. Feel free to add to the 'countries' dictionary, but use sources derived from [https://www.worldometers.info/coronavirus/#countries], otherwise you will need to modify the web scraper.
@@ -30,16 +28,17 @@ Take a look at the parent page, [https://www.worldometers.info/coronavirus/#coun
 1. Daily new cases
 2. Fitted (to best fit exponential) graph of Daily new cases
 3. Total cases, the cumulative sum of Daily new cases
-4. Fitted (to best fit exponential) graph of Daily new cases
+4. Fitted (to best fit exponential) graph of Total new cases
 
 'Fitted' graphs show the best fitting exponential parameters for the underlying data. These parameters are then used to estimate the current doubling rate, which is displayed on the terminal, not the graph. The rule of seventy is used for this estimation.
 
-A note on the doubling rate: Doubling ten times means a thousand-fold increase (1024-fold  to be exact). At the time of writing (26 Mar 2020), the doubling rate for Ireland's total cases is 3.9. This means that in 29 days (i.e. End of April), we can expect that there are a thousand times today's count of 1563- one and a half million, or a quarter of population.
+A note on the doubling rate: Doubling ten times means a thousand-fold increase (1024-fold  to be exact). At the time of writing (26 Mar 2020), the doubling rate for Ireland's total cases is 3.9. This means that in 39 days (i.e. End of April), we 'should' expect that there are a thousand times today's count of 1563- one and a half million, or a quarter of our population.
 
 However, take into account:
-1. Our testing capacity will have changed significantly during this period. Detection rates depend on testing capacity.
+1. Our testing capacity will have changed during this period. Detection rates depend on testing capacity.
 2. A quarter of our population infected might actually be greater than the saturation ratio for infection. This means that daily new infection rate decreases because a significant portion of the population is already infected. In other words, almost everyone who can be infected is already infected.
-3. Interesting, we reach this point in about a month's time. With absolute certainly, before early May.
+3. Interesting, we reach this point in about a month's time. With absolute certainly, by early May.
+4. On 22 March, first warm Sunday of spring here, public areas were packed with people. That was less than a week ago (today is 27 March), and the results should begin to show over the course of the next few weeks. However, tests are restricted in such a manner that none of those who were out and about that day are eligible for testing.
 
 Footnote: Irish population is 4.83 million.
 
