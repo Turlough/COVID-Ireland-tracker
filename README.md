@@ -1,7 +1,7 @@
 # Daily Covid Cases in Ireland
 
 ## Summary
-A Jupyter notebook for analysing growth in detection rates in Ireland
+A Jupyter notebook for analysing growth in Covid-19 detection rates in Ireland
 
 ## Interactive viewing
 1. View this page in [nbviewer](https://nbviewer.jupyter.org/github/Turlough/COVID-Ireland-tracker/blob/master/covid_scraper_and_plots.ipynb)
